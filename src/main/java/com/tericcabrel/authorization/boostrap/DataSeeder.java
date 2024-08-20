@@ -60,6 +60,8 @@ public class DataSeeder implements ApplicationListener<ContextRefreshedEvent> {
                     .setDefault(true);
 
                 roleService.save(createRoleDto);
+
+                // hello I made change here in wooq-2
             }
         });
     }
